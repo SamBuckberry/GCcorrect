@@ -1,3 +1,7 @@
+# to run:
+make chr1.fa B=700 W=180
+(I think)
+
 GCcorrect is tool to normalize a library of aligned genome sequencing reads for local genome sequence GC bias.  For now we will only do this correction on the positive strand only.  The correction will be performed on one chromosome at a time.
 
 The program takes as input the reference sequence of a chromosome in fasta format i.e. chr1.fa
